@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		766D2E531DD3BB0200AE30A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 766D2E521DD3BB0200AE30A7 /* main.m */; };
+		766D2E561DD3BB0200AE30A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 766D2E551DD3BB0200AE30A7 /* AppDelegate.m */; };
+		766D2E591DD3BB0200AE30A7 /* StudentRosterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 766D2E581DD3BB0200AE30A7 /* StudentRosterViewController.m */; };
+		766D2E5C1DD3BB0200AE30A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 766D2E5A1DD3BB0200AE30A7 /* Main.storyboard */; };
+		766D2E5E1DD3BB0200AE30A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 766D2E5D1DD3BB0200AE30A7 /* Assets.xcassets */; };
+		766D2E611DD3BB0200AE30A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 766D2E5F1DD3BB0200AE30A7 /* LaunchScreen.storyboard */; };
+		766D2E6A1DD3BD6A00AE30A7 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 766D2E691DD3BD6A00AE30A7 /* Student.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		766D2E4E1DD3BB0200AE30A7 /* StudentRoster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentRoster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		766D2E521DD3BB0200AE30A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		766D2E541DD3BB0200AE30A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		766D2E551DD3BB0200AE30A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		766D2E571DD3BB0200AE30A7 /* StudentRosterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudentRosterViewController.h; sourceTree = "<group>"; };
+		766D2E581DD3BB0200AE30A7 /* StudentRosterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudentRosterViewController.m; sourceTree = "<group>"; };
+		766D2E5B1DD3BB0200AE30A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		766D2E5D1DD3BB0200AE30A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		766D2E601DD3BB0200AE30A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		766D2E621DD3BB0200AE30A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		766D2E681DD3BD6A00AE30A7 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		766D2E691DD3BD6A00AE30A7 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		766D2E4B1DD3BB0200AE30A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		766D2E451DD3BB0200AE30A7 = {
+			isa = PBXGroup;
+			children = (
+				766D2E501DD3BB0200AE30A7 /* StudentRoster */,
+				766D2E4F1DD3BB0200AE30A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		766D2E4F1DD3BB0200AE30A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				766D2E4E1DD3BB0200AE30A7 /* StudentRoster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		766D2E501DD3BB0200AE30A7 /* StudentRoster */ = {
+			isa = PBXGroup;
+			children = (
+				766D2E541DD3BB0200AE30A7 /* AppDelegate.h */,
+				766D2E551DD3BB0200AE30A7 /* AppDelegate.m */,
+				766D2E571DD3BB0200AE30A7 /* StudentRosterViewController.h */,
+				766D2E581DD3BB0200AE30A7 /* StudentRosterViewController.m */,
+				766D2E5A1DD3BB0200AE30A7 /* Main.storyboard */,
+				766D2E681DD3BD6A00AE30A7 /* Student.h */,
+				766D2E691DD3BD6A00AE30A7 /* Student.m */,
+				766D2E5D1DD3BB0200AE30A7 /* Assets.xcassets */,
+				766D2E5F1DD3BB0200AE30A7 /* LaunchScreen.storyboard */,
+				766D2E621DD3BB0200AE30A7 /* Info.plist */,
+				766D2E511DD3BB0200AE30A7 /* Supporting Files */,
+			);
+			path = StudentRoster;
+			sourceTree = "<group>";
+		};
+		766D2E511DD3BB0200AE30A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				766D2E521DD3BB0200AE30A7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		766D2E4D1DD3BB0200AE30A7 /* StudentRoster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 766D2E651DD3BB0200AE30A7 /* Build configuration list for PBXNativeTarget "StudentRoster" */;
+			buildPhases = (
+				766D2E4A1DD3BB0200AE30A7 /* Sources */,
+				766D2E4B1DD3BB0200AE30A7 /* Frameworks */,
+				766D2E4C1DD3BB0200AE30A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudentRoster;
+			productName = StudentRoster;
+			productReference = 766D2E4E1DD3BB0200AE30A7 /* StudentRoster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		766D2E461DD3BB0200AE30A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "The Iron Yard";
+				TargetAttributes = {
+					766D2E4D1DD3BB0200AE30A7 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 766D2E491DD3BB0200AE30A7 /* Build configuration list for PBXProject "StudentRoster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 766D2E451DD3BB0200AE30A7;
+			productRefGroup = 766D2E4F1DD3BB0200AE30A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				766D2E4D1DD3BB0200AE30A7 /* StudentRoster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		766D2E4C1DD3BB0200AE30A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				766D2E611DD3BB0200AE30A7 /* LaunchScreen.storyboard in Resources */,
+				766D2E5E1DD3BB0200AE30A7 /* Assets.xcassets in Resources */,
+				766D2E5C1DD3BB0200AE30A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		766D2E4A1DD3BB0200AE30A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				766D2E591DD3BB0200AE30A7 /* StudentRosterViewController.m in Sources */,
+				766D2E561DD3BB0200AE30A7 /* AppDelegate.m in Sources */,
+				766D2E531DD3BB0200AE30A7 /* main.m in Sources */,
+				766D2E6A1DD3BD6A00AE30A7 /* Student.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		766D2E5A1DD3BB0200AE30A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				766D2E5B1DD3BB0200AE30A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		766D2E5F1DD3BB0200AE30A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				766D2E601DD3BB0200AE30A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		766D2E631DD3BB0200AE30A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		766D2E641DD3BB0200AE30A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		766D2E661DD3BB0200AE30A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StudentRoster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiy.StudentRoster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		766D2E671DD3BB0200AE30A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StudentRoster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiy.StudentRoster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		766D2E491DD3BB0200AE30A7 /* Build configuration list for PBXProject "StudentRoster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				766D2E631DD3BB0200AE30A7 /* Debug */,
+				766D2E641DD3BB0200AE30A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		766D2E651DD3BB0200AE30A7 /* Build configuration list for PBXNativeTarget "StudentRoster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				766D2E661DD3BB0200AE30A7 /* Debug */,
+				766D2E671DD3BB0200AE30A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 766D2E461DD3BB0200AE30A7 /* Project object */;
+}
