@@ -21,9 +21,16 @@
 {
     [super viewDidLoad];
     
+     
     Student *studentData = [Student studentwithDictionary:@{@"name": @"Jonathan", @"gitHandle": @"@jarchille", @"emailAddress": @"jarchille@gmail.com", @"age": [NSNumber numberWithInt:22]}];
-    self.StudentArray = @[studentData];
+    Student *studentData1 = [Student studentwithDictionary:@{@"name": @"Kimberley", @"gitHandle": @"@kimmy", @"emailAddress": @"jarchille@gmail.com", @"age": [NSNumber numberWithInt:22]}];
+    Student *studentData2 = [Student studentwithDictionary:@{@"name": @"Heather", @"gitHandle": @"@HSummy", @"emailAddress": @"jarchille@gmail.com", @"age": [NSNumber numberWithInt:22]}];
+    Student *studentData3 = [Student studentwithDictionary:@{@"name": @"Michael", @"gitHandle": @"@thecraftyKraut", @"emailAddress": @"jarchille@gmail.com", @"age": [NSNumber numberWithInt:22]}];
+    Student *studentData4 = [Student studentwithDictionary:@{@"name": @"Marco", @"gitHandle": @"@ironmammaa", @"emailAddress": @"jarchille@gmail.com", @"age": [NSNumber numberWithInt:22]}];
+     
+    self.StudentArray = @[studentData, studentData1, studentData2, studentData3, studentData4];
 
+    
 }
 
 - (void)didReceiveMemoryWarning
